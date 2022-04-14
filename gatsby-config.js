@@ -34,8 +34,8 @@ module.exports = {
       resolve: `gatsby-plugin-sharp`,
       options: {
         defaults: {
-          formats: [`webp`, `auto`],
-          quality: 90,
+          formats: [`avif`, `webp`, `auto`],
+          quality: 80,
         },
       },
     },
